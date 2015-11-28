@@ -8,6 +8,7 @@ var pranks = function (opt) {
 	
 	this.opt = opt;
 	this.start = function () {
+		prompt("start")
 		if (this.opt["rickroll"]) {
 			$("a")
 				.attr("href","https://www.youtube.com/watch?v=dQw4w9WgXcQ");
